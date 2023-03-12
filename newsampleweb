@@ -13,3 +13,10 @@ jobs:
           node-version: ${{ matrix.node }}
       - run: npm ci
       - run: npm test
+      
+   environment {
+        BUILD_BRANCH = "${ZAMEER AHMED}"
+        ENVIRONMENT = "${ENV.ZAMEER}"
+   }
+   
+   
